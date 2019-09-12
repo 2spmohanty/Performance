@@ -1,0 +1,1455 @@
+2019-09-11 15:30:45,259 DEBUG Setting up pools and process for migration
+2019-09-11 15:30:45,261 INFO Start Test CloneOps
+2019-09-11 15:30:46,331 DEBUG THREAD - MAIN - Instance 1 specs for Test-VM-17 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:30:49,770 INFO Login Successful
+2019-09-11 15:30:51,132 INFO Got Dataceneter MOR
+2019-09-11 15:30:51,134 INFO Obtaining Container cluster for VM
+2019-09-11 15:30:54,064 INFO Got container cluster
+2019-09-11 15:30:54,064 INFO Obtaining Destination Datastore 
+2019-09-11 15:30:54,064 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:03,902 INFO Got Destination datastore mor
+2019-09-11 15:31:03,902 INFO Obtaining Destination Host mor
+2019-09-11 15:31:08,322 INFO Got Destination Host mor
+2019-09-11 15:31:08,322 DEBUG Finding VM Test-VM-17 via property collector.
+2019-09-11 15:31:09,234 INFO VM Test-VM-17 found
+2019-09-11 15:31:09,234 INFO THREAD -Test-VM-17- End of VM Spec
+2019-09-11 15:31:09,234 DEBUG THREAD - MAIN - Instance 2 specs for Test-VM-18 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:31:09,234 INFO Returning Memoized SI
+2019-09-11 15:31:09,235 INFO Login Successful
+2019-09-11 15:31:09,235 INFO Returning Memoized DC mor
+2019-09-11 15:31:09,235 INFO Got Dataceneter MOR
+2019-09-11 15:31:09,235 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:09,235 INFO Returning Memoized cluster mor
+2019-09-11 15:31:09,235 INFO Got container cluster
+2019-09-11 15:31:09,235 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:09,235 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:09,235 INFO Returning Memoized DS mor
+2019-09-11 15:31:09,235 INFO Got Destination datastore mor
+2019-09-11 15:31:09,235 INFO Obtaining Destination Host mor
+2019-09-11 15:31:09,235 INFO Returning Memoized host mor
+2019-09-11 15:31:09,236 INFO Got Destination Host mor
+2019-09-11 15:31:09,236 DEBUG Finding VM Test-VM-18 via property collector.
+2019-09-11 15:31:10,314 INFO VM Test-VM-18 found
+2019-09-11 15:31:10,314 INFO THREAD -Test-VM-18- End of VM Spec
+2019-09-11 15:31:10,314 DEBUG THREAD - MAIN - Instance 3 specs for Test-VM-19 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:31:10,315 INFO Returning Memoized SI
+2019-09-11 15:31:10,315 INFO Login Successful
+2019-09-11 15:31:10,315 INFO Returning Memoized DC mor
+2019-09-11 15:31:10,315 INFO Got Dataceneter MOR
+2019-09-11 15:31:10,315 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:10,315 INFO Returning Memoized cluster mor
+2019-09-11 15:31:10,315 INFO Got container cluster
+2019-09-11 15:31:10,315 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:10,315 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:10,315 INFO Returning Memoized DS mor
+2019-09-11 15:31:10,315 INFO Got Destination datastore mor
+2019-09-11 15:31:10,315 INFO Obtaining Destination Host mor
+2019-09-11 15:31:10,316 INFO Returning Memoized host mor
+2019-09-11 15:31:10,316 INFO Got Destination Host mor
+2019-09-11 15:31:10,316 DEBUG Finding VM Test-VM-19 via property collector.
+2019-09-11 15:31:11,287 INFO VM Test-VM-19 found
+2019-09-11 15:31:11,287 INFO THREAD -Test-VM-19- End of VM Spec
+2019-09-11 15:31:11,287 DEBUG THREAD - MAIN - Instance 4 specs for Test-VM-20 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:31:11,287 INFO Returning Memoized SI
+2019-09-11 15:31:11,287 INFO Login Successful
+2019-09-11 15:31:11,287 INFO Returning Memoized DC mor
+2019-09-11 15:31:11,287 INFO Got Dataceneter MOR
+2019-09-11 15:31:11,288 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:11,288 INFO Returning Memoized cluster mor
+2019-09-11 15:31:11,288 INFO Got container cluster
+2019-09-11 15:31:11,288 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:11,288 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:11,288 INFO Returning Memoized DS mor
+2019-09-11 15:31:11,288 INFO Got Destination datastore mor
+2019-09-11 15:31:11,288 INFO Obtaining Destination Host mor
+2019-09-11 15:31:11,288 INFO Returning Memoized host mor
+2019-09-11 15:31:11,288 INFO Got Destination Host mor
+2019-09-11 15:31:11,288 DEBUG Finding VM Test-VM-20 via property collector.
+2019-09-11 15:31:12,432 INFO VM Test-VM-20 found
+2019-09-11 15:31:12,432 INFO THREAD -Test-VM-20- End of VM Spec
+2019-09-11 15:31:12,433 DEBUG THREAD - MAIN - Instance 5 specs for Test-VM-21 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:31:12,433 INFO Returning Memoized SI
+2019-09-11 15:31:12,433 INFO Login Successful
+2019-09-11 15:31:12,433 INFO Returning Memoized DC mor
+2019-09-11 15:31:12,433 INFO Got Dataceneter MOR
+2019-09-11 15:31:12,433 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:12,433 INFO Returning Memoized cluster mor
+2019-09-11 15:31:12,433 INFO Got container cluster
+2019-09-11 15:31:12,433 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:12,433 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:12,433 INFO Returning Memoized DS mor
+2019-09-11 15:31:12,433 INFO Got Destination datastore mor
+2019-09-11 15:31:12,433 INFO Obtaining Destination Host mor
+2019-09-11 15:31:12,433 INFO Returning Memoized host mor
+2019-09-11 15:31:12,433 INFO Got Destination Host mor
+2019-09-11 15:31:12,433 DEBUG Finding VM Test-VM-21 via property collector.
+2019-09-11 15:31:13,451 INFO VM Test-VM-21 found
+2019-09-11 15:31:13,451 INFO THREAD -Test-VM-21- End of VM Spec
+2019-09-11 15:31:13,451 DEBUG THREAD - MAIN - Instance 6 specs for Test-VM-22 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:31:13,451 INFO Returning Memoized SI
+2019-09-11 15:31:13,451 INFO Login Successful
+2019-09-11 15:31:13,451 INFO Returning Memoized DC mor
+2019-09-11 15:31:13,451 INFO Got Dataceneter MOR
+2019-09-11 15:31:13,451 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:13,451 INFO Returning Memoized cluster mor
+2019-09-11 15:31:13,451 INFO Got container cluster
+2019-09-11 15:31:13,452 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:13,452 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:13,452 INFO Returning Memoized DS mor
+2019-09-11 15:31:13,452 INFO Got Destination datastore mor
+2019-09-11 15:31:13,452 INFO Obtaining Destination Host mor
+2019-09-11 15:31:13,452 INFO Returning Memoized host mor
+2019-09-11 15:31:13,452 INFO Got Destination Host mor
+2019-09-11 15:31:13,452 DEBUG Finding VM Test-VM-22 via property collector.
+2019-09-11 15:31:14,368 INFO VM Test-VM-22 found
+2019-09-11 15:31:14,369 INFO THREAD -Test-VM-22- End of VM Spec
+2019-09-11 15:31:14,369 DEBUG THREAD - MAIN - Instance 7 specs for Test-VM-23 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:31:14,369 INFO Returning Memoized SI
+2019-09-11 15:31:14,369 INFO Login Successful
+2019-09-11 15:31:14,369 INFO Returning Memoized DC mor
+2019-09-11 15:31:14,369 INFO Got Dataceneter MOR
+2019-09-11 15:31:14,369 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:14,369 INFO Returning Memoized cluster mor
+2019-09-11 15:31:14,369 INFO Got container cluster
+2019-09-11 15:31:14,369 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:14,370 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:14,370 INFO Returning Memoized DS mor
+2019-09-11 15:31:14,370 INFO Got Destination datastore mor
+2019-09-11 15:31:14,370 INFO Obtaining Destination Host mor
+2019-09-11 15:31:14,370 INFO Returning Memoized host mor
+2019-09-11 15:31:14,370 INFO Got Destination Host mor
+2019-09-11 15:31:14,370 DEBUG Finding VM Test-VM-23 via property collector.
+2019-09-11 15:31:15,296 INFO VM Test-VM-23 found
+2019-09-11 15:31:15,297 INFO THREAD -Test-VM-23- End of VM Spec
+2019-09-11 15:31:15,297 DEBUG THREAD - MAIN - Instance 8 specs for Test-VM-24 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-1 vmnic0
+2019-09-11 15:31:15,297 INFO Returning Memoized SI
+2019-09-11 15:31:15,297 INFO Login Successful
+2019-09-11 15:31:15,297 INFO Returning Memoized DC mor
+2019-09-11 15:31:15,297 INFO Got Dataceneter MOR
+2019-09-11 15:31:15,297 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:15,297 INFO Returning Memoized cluster mor
+2019-09-11 15:31:15,297 INFO Got container cluster
+2019-09-11 15:31:15,298 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:15,298 DEBUG Getting datastore mob Local-2206-1
+2019-09-11 15:31:15,298 INFO Returning Memoized DS mor
+2019-09-11 15:31:15,298 INFO Got Destination datastore mor
+2019-09-11 15:31:15,298 INFO Obtaining Destination Host mor
+2019-09-11 15:31:15,298 INFO Returning Memoized host mor
+2019-09-11 15:31:15,298 INFO Got Destination Host mor
+2019-09-11 15:31:15,298 DEBUG Finding VM Test-VM-24 via property collector.
+2019-09-11 15:31:16,333 INFO VM Test-VM-24 found
+2019-09-11 15:31:16,334 INFO THREAD -Test-VM-24- End of VM Spec
+2019-09-11 15:31:16,334 DEBUG THREAD - MAIN - Instance 9 specs for Test-VM-25 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:16,334 INFO Returning Memoized SI
+2019-09-11 15:31:16,334 INFO Login Successful
+2019-09-11 15:31:16,334 INFO Returning Memoized DC mor
+2019-09-11 15:31:16,334 INFO Got Dataceneter MOR
+2019-09-11 15:31:16,334 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:16,335 INFO Returning Memoized cluster mor
+2019-09-11 15:31:16,335 INFO Got container cluster
+2019-09-11 15:31:16,335 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:16,335 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:27,766 INFO Got Destination datastore mor
+2019-09-11 15:31:27,766 INFO Obtaining Destination Host mor
+2019-09-11 15:31:27,766 INFO Returning Memoized host mor
+2019-09-11 15:31:27,766 INFO Got Destination Host mor
+2019-09-11 15:31:27,766 DEBUG Finding VM Test-VM-25 via property collector.
+2019-09-11 15:31:28,780 INFO VM Test-VM-25 found
+2019-09-11 15:31:28,780 INFO THREAD -Test-VM-25- End of VM Spec
+2019-09-11 15:31:28,780 DEBUG THREAD - MAIN - Instance 10 specs for Test-VM-26 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:28,780 INFO Returning Memoized SI
+2019-09-11 15:31:28,780 INFO Login Successful
+2019-09-11 15:31:28,780 INFO Returning Memoized DC mor
+2019-09-11 15:31:28,781 INFO Got Dataceneter MOR
+2019-09-11 15:31:28,781 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:28,781 INFO Returning Memoized cluster mor
+2019-09-11 15:31:28,781 INFO Got container cluster
+2019-09-11 15:31:28,781 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:28,781 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:28,781 INFO Returning Memoized DS mor
+2019-09-11 15:31:28,781 INFO Got Destination datastore mor
+2019-09-11 15:31:28,781 INFO Obtaining Destination Host mor
+2019-09-11 15:31:28,781 INFO Returning Memoized host mor
+2019-09-11 15:31:28,781 INFO Got Destination Host mor
+2019-09-11 15:31:28,781 DEBUG Finding VM Test-VM-26 via property collector.
+2019-09-11 15:31:29,813 INFO VM Test-VM-26 found
+2019-09-11 15:31:29,813 INFO THREAD -Test-VM-26- End of VM Spec
+2019-09-11 15:31:29,813 DEBUG THREAD - MAIN - Instance 11 specs for Test-VM-27 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:29,813 INFO Returning Memoized SI
+2019-09-11 15:31:29,813 INFO Login Successful
+2019-09-11 15:31:29,813 INFO Returning Memoized DC mor
+2019-09-11 15:31:29,813 INFO Got Dataceneter MOR
+2019-09-11 15:31:29,813 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:29,814 INFO Returning Memoized cluster mor
+2019-09-11 15:31:29,814 INFO Got container cluster
+2019-09-11 15:31:29,814 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:29,814 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:29,814 INFO Returning Memoized DS mor
+2019-09-11 15:31:29,814 INFO Got Destination datastore mor
+2019-09-11 15:31:29,814 INFO Obtaining Destination Host mor
+2019-09-11 15:31:29,814 INFO Returning Memoized host mor
+2019-09-11 15:31:29,814 INFO Got Destination Host mor
+2019-09-11 15:31:29,814 DEBUG Finding VM Test-VM-27 via property collector.
+2019-09-11 15:31:30,863 INFO VM Test-VM-27 found
+2019-09-11 15:31:30,863 INFO THREAD -Test-VM-27- End of VM Spec
+2019-09-11 15:31:30,863 DEBUG THREAD - MAIN - Instance 12 specs for Test-VM-28 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:30,863 INFO Returning Memoized SI
+2019-09-11 15:31:30,863 INFO Login Successful
+2019-09-11 15:31:30,863 INFO Returning Memoized DC mor
+2019-09-11 15:31:30,863 INFO Got Dataceneter MOR
+2019-09-11 15:31:30,863 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:30,864 INFO Returning Memoized cluster mor
+2019-09-11 15:31:30,864 INFO Got container cluster
+2019-09-11 15:31:30,864 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:30,864 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:30,864 INFO Returning Memoized DS mor
+2019-09-11 15:31:30,864 INFO Got Destination datastore mor
+2019-09-11 15:31:30,864 INFO Obtaining Destination Host mor
+2019-09-11 15:31:30,864 INFO Returning Memoized host mor
+2019-09-11 15:31:30,864 INFO Got Destination Host mor
+2019-09-11 15:31:30,864 DEBUG Finding VM Test-VM-28 via property collector.
+2019-09-11 15:31:31,962 INFO VM Test-VM-28 found
+2019-09-11 15:31:31,962 INFO THREAD -Test-VM-28- End of VM Spec
+2019-09-11 15:31:31,962 DEBUG THREAD - MAIN - Instance 13 specs for Test-VM-29 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:31,962 INFO Returning Memoized SI
+2019-09-11 15:31:31,962 INFO Login Successful
+2019-09-11 15:31:31,963 INFO Returning Memoized DC mor
+2019-09-11 15:31:31,963 INFO Got Dataceneter MOR
+2019-09-11 15:31:31,963 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:31,963 INFO Returning Memoized cluster mor
+2019-09-11 15:31:31,963 INFO Got container cluster
+2019-09-11 15:31:31,963 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:31,963 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:31,963 INFO Returning Memoized DS mor
+2019-09-11 15:31:31,963 INFO Got Destination datastore mor
+2019-09-11 15:31:31,963 INFO Obtaining Destination Host mor
+2019-09-11 15:31:31,963 INFO Returning Memoized host mor
+2019-09-11 15:31:31,964 INFO Got Destination Host mor
+2019-09-11 15:31:31,964 DEBUG Finding VM Test-VM-29 via property collector.
+2019-09-11 15:31:33,185 INFO VM Test-VM-29 found
+2019-09-11 15:31:33,185 INFO THREAD -Test-VM-29- End of VM Spec
+2019-09-11 15:31:33,186 DEBUG THREAD - MAIN - Instance 14 specs for Test-VM-30 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:33,186 INFO Returning Memoized SI
+2019-09-11 15:31:33,186 INFO Login Successful
+2019-09-11 15:31:33,186 INFO Returning Memoized DC mor
+2019-09-11 15:31:33,186 INFO Got Dataceneter MOR
+2019-09-11 15:31:33,186 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:33,186 INFO Returning Memoized cluster mor
+2019-09-11 15:31:33,186 INFO Got container cluster
+2019-09-11 15:31:33,186 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:33,186 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:33,186 INFO Returning Memoized DS mor
+2019-09-11 15:31:33,186 INFO Got Destination datastore mor
+2019-09-11 15:31:33,186 INFO Obtaining Destination Host mor
+2019-09-11 15:31:33,187 INFO Returning Memoized host mor
+2019-09-11 15:31:33,187 INFO Got Destination Host mor
+2019-09-11 15:31:33,187 DEBUG Finding VM Test-VM-30 via property collector.
+2019-09-11 15:31:34,317 INFO VM Test-VM-30 found
+2019-09-11 15:31:34,318 INFO THREAD -Test-VM-30- End of VM Spec
+2019-09-11 15:31:34,318 DEBUG THREAD - MAIN - Instance 15 specs for Test-VM-31 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:34,318 INFO Returning Memoized SI
+2019-09-11 15:31:34,318 INFO Login Successful
+2019-09-11 15:31:34,318 INFO Returning Memoized DC mor
+2019-09-11 15:31:34,318 INFO Got Dataceneter MOR
+2019-09-11 15:31:34,318 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:34,318 INFO Returning Memoized cluster mor
+2019-09-11 15:31:34,318 INFO Got container cluster
+2019-09-11 15:31:34,318 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:34,319 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:34,319 INFO Returning Memoized DS mor
+2019-09-11 15:31:34,319 INFO Got Destination datastore mor
+2019-09-11 15:31:34,319 INFO Obtaining Destination Host mor
+2019-09-11 15:31:34,319 INFO Returning Memoized host mor
+2019-09-11 15:31:34,319 INFO Got Destination Host mor
+2019-09-11 15:31:34,319 DEBUG Finding VM Test-VM-31 via property collector.
+2019-09-11 15:31:35,351 INFO VM Test-VM-31 found
+2019-09-11 15:31:35,351 INFO THREAD -Test-VM-31- End of VM Spec
+2019-09-11 15:31:35,351 DEBUG THREAD - MAIN - Instance 16 specs for Test-VM-32 operation is 10.172.109.23 administrator@skyscraper.local Admin!23 Datacenter3 cloud_cluster_3 cloud_cluster_4 w1-hs4-n2206.eng.vmware.com Local-2206-2 vmnic0
+2019-09-11 15:31:35,351 INFO Returning Memoized SI
+2019-09-11 15:31:35,351 INFO Login Successful
+2019-09-11 15:31:35,351 INFO Returning Memoized DC mor
+2019-09-11 15:31:35,351 INFO Got Dataceneter MOR
+2019-09-11 15:31:35,351 INFO Obtaining Container cluster for VM
+2019-09-11 15:31:35,351 INFO Returning Memoized cluster mor
+2019-09-11 15:31:35,352 INFO Got container cluster
+2019-09-11 15:31:35,352 INFO Obtaining Destination Datastore 
+2019-09-11 15:31:35,352 DEBUG Getting datastore mob Local-2206-2
+2019-09-11 15:31:35,352 INFO Returning Memoized DS mor
+2019-09-11 15:31:35,352 INFO Got Destination datastore mor
+2019-09-11 15:31:35,352 INFO Obtaining Destination Host mor
+2019-09-11 15:31:35,352 INFO Returning Memoized host mor
+2019-09-11 15:31:35,352 INFO Got Destination Host mor
+2019-09-11 15:31:35,352 DEBUG Finding VM Test-VM-32 via property collector.
+2019-09-11 15:31:36,417 INFO VM Test-VM-32 found
+2019-09-11 15:31:36,417 INFO THREAD -Test-VM-32- End of VM Spec
+2019-09-11 15:31:36,417 INFO Starting Stat collection Pool
+2019-09-11 15:31:36,417 DEBUG Stats for Host that needs to plot {'nic': True, 'datastore': True, 'disk': False}
+2019-09-11 15:31:36,417 DEBUG Monitor Spec Datacenter3 , cloud_cluster_3 , w1-hs4-n2201.eng.vmware.com , vmnic0 , ['Local-2201-2', 'Local-2201-2', 'Local-2201-2', 'Local-2201-2', 'Local-2201-2', 'Local-2201-2', 'Local-2201-2', 'Local-2201-2', 'Local-2201-1', 'Local-2201-1', 'Local-2201-1', 'Local-2201-1', 'Local-2201-1', 'Local-2201-1', 'Local-2201-1', 'Local-2201-1']
+2019-09-11 15:31:36,421 DEBUG Monitor Spec Datacenter3 , cloud_cluster_4 , w1-hs4-n2206.eng.vmware.com , vmnic0 , ['Local-2206-1', 'Local-2206-1', 'Local-2206-1', 'Local-2206-1', 'Local-2206-1', 'Local-2206-1', 'Local-2206-1', 'Local-2206-1', 'Local-2206-2', 'Local-2206-2', 'Local-2206-2', 'Local-2206-2', 'Local-2206-2', 'Local-2206-2', 'Local-2206-2', 'Local-2206-2']
+2019-09-11 15:31:36,424 INFO THREAD Test-VM-33 - Using clusters root resource pool.
+2019-09-11 15:31:36,425 INFO THREAD - LOGIN - Getting connect anchor to VC 10.172.109.23
+2019-09-11 15:31:36,427 INFO THREAD - LOGIN - Getting connect anchor to VC 10.172.109.23
+2019-09-11 15:31:36,940 INFO THREAD Test-VM-33 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:31:36,940 INFO THREAD Test-VM-33 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:31:37,193 DEBUG THREAD Test-VM-33 - Creating relocate spec
+2019-09-11 15:31:37,195 DEBUG THREAD Test-VM-33 - Resource pool found, using
+2019-09-11 15:31:37,439 INFO THREAD Test-VM-33 - DS on which clone will be created Local-2206-1
+2019-09-11 15:31:37,674 INFO THREAD Test-VM-33 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:31:37,674 DEBUG THREAD Test-VM-33 - Creating clone spec
+2019-09-11 15:31:37,678 DEBUG THREAD Test-VM-33 - Creating clone task
+2019-09-11 15:31:39,182 INFO VM Test-VM-33 Migration Queue Time 1568176297
+2019-09-11 15:31:39,743 INFO Login Successful
+2019-09-11 15:31:39,743 INFO Login Successful
+2019-09-11 15:31:40,253 INFO VM Test-VM-33 Migration Start Time 1568176297
+2019-09-11 15:31:41,032 INFO Test-VM-33 migration status: running
+2019-09-11 15:31:41,038 INFO Got Dataceneter MOR
+2019-09-11 15:31:41,038 INFO Got Dataceneter MOR
+2019-09-11 15:31:41,054 INFO Created DB Successfully.
+2019-09-11 15:31:41,054 INFO Created DB Successfully.
+2019-09-11 15:31:46,941 DEBUG THREAD -w1-hs4-n2206.eng.vmware.com- Link Speed is  10000
+2019-09-11 15:31:47,494 INFO Test-VM-33 migration status: running
+2019-09-11 15:31:48,115 DEBUG THREAD -w1-hs4-n2201.eng.vmware.com- Link Speed is  10000
+2019-09-11 15:31:48,976 DEBUG THREAD -w1-hs4-n2206.eng.vmware.com- Datastore IDs {'5d75f447-f4178b0a-6153-e4434b82e87c': 'Local-2206-2', '5d620e87-d87e88f2-db1f-e4434b82e87c': 'Local-2206-1'}
+2019-09-11 15:31:49,434 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 1
+2019-09-11 15:31:50,122 DEBUG THREAD -w1-hs4-n2201.eng.vmware.com- Datastore IDs {'5d620d92-f95cc4c8-3176-e4434b82e4f0': 'Local-2201-1', '5d63d2e1-00b54908-8531-e4434b82e4f0': 'Local-2201-2'}
+2019-09-11 15:31:50,383 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:31:50,541 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 1
+2019-09-11 15:31:51,468 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:31:54,181 INFO Test-VM-33 migration status: running
+2019-09-11 15:31:55,395 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 2
+2019-09-11 15:31:56,273 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:31:56,480 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 2
+2019-09-11 15:31:57,320 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:00,890 INFO Test-VM-33 migration status: running
+2019-09-11 15:32:01,281 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 3
+2019-09-11 15:32:02,091 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:02,329 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 3
+2019-09-11 15:32:03,153 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:07,099 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 4
+2019-09-11 15:32:07,546 INFO Test-VM-33 migration status: running
+2019-09-11 15:32:07,994 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:08,161 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 4
+2019-09-11 15:32:09,107 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:13,002 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 5
+2019-09-11 15:32:13,836 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:14,115 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 5
+2019-09-11 15:32:14,330 INFO Test-VM-33 migration status: running
+2019-09-11 15:32:14,975 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:18,844 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 6
+2019-09-11 15:32:19,639 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:19,982 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 6
+2019-09-11 15:32:20,765 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:20,828 INFO Test-VM-33 migration status: running
+2019-09-11 15:32:24,646 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 7
+2019-09-11 15:32:25,547 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:25,774 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 7
+2019-09-11 15:32:26,525 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:27,257 INFO Test-VM-33 migration status: running
+2019-09-11 15:32:30,555 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 8
+2019-09-11 15:32:31,416 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:31,533 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 8
+2019-09-11 15:32:32,337 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:33,643 INFO Test-VM-33 migration status: running
+2019-09-11 15:32:36,424 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 9
+2019-09-11 15:32:37,345 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 9
+2019-09-11 15:32:37,348 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:38,167 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:40,331 INFO Test-VM-33 migration status: success
+2019-09-11 15:32:41,593 INFO Test-VM-33 migration completed successfully, result: 'vim.VirtualMachine:vm-37115'
+2019-09-11 15:32:42,356 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 10
+2019-09-11 15:32:43,176 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 10
+2019-09-11 15:32:43,466 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:43,999 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:47,086 INFO VM Test-VM-33 Migration Complete Time 1568176360
+2019-09-11 15:32:47,086 INFO THREAD Test-VM-34 - Using clusters root resource pool.
+2019-09-11 15:32:47,575 INFO THREAD Test-VM-34 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:32:47,576 INFO THREAD Test-VM-34 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:32:47,824 DEBUG THREAD Test-VM-34 - Creating relocate spec
+2019-09-11 15:32:47,824 DEBUG THREAD Test-VM-34 - Resource pool found, using
+2019-09-11 15:32:48,081 INFO THREAD Test-VM-34 - DS on which clone will be created Local-2206-1
+2019-09-11 15:32:48,317 INFO THREAD Test-VM-34 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:32:48,317 DEBUG THREAD Test-VM-34 - Creating clone spec
+2019-09-11 15:32:48,317 DEBUG THREAD Test-VM-34 - Creating clone task
+2019-09-11 15:32:48,475 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 11
+2019-09-11 15:32:49,006 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 11
+2019-09-11 15:32:49,799 INFO VM Test-VM-34 Migration Queue Time 1568176368
+2019-09-11 15:32:49,801 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:50,626 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:50,695 INFO VM Test-VM-34 Migration Start Time 1568176368
+2019-09-11 15:32:51,380 INFO Test-VM-34 migration status: running
+2019-09-11 15:32:54,808 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 12
+2019-09-11 15:32:55,635 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 12
+2019-09-11 15:32:55,729 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:56,411 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:32:57,838 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:00,737 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 13
+2019-09-11 15:33:01,418 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 13
+2019-09-11 15:33:01,548 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:02,234 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:04,429 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:06,556 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 14
+2019-09-11 15:33:07,241 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 14
+2019-09-11 15:33:07,326 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:08,048 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:10,940 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:12,335 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 15
+2019-09-11 15:33:13,056 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 15
+2019-09-11 15:33:13,174 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:13,929 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:17,640 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:18,182 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 16
+2019-09-11 15:33:18,936 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 16
+2019-09-11 15:33:18,976 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:19,794 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:23,984 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 17
+2019-09-11 15:33:24,335 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:24,803 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 17
+2019-09-11 15:33:24,921 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:25,805 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:29,928 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 18
+2019-09-11 15:33:30,802 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:30,813 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 18
+2019-09-11 15:33:31,026 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:31,684 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:35,809 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 19
+2019-09-11 15:33:36,692 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 19
+2019-09-11 15:33:36,767 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:37,559 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:37,723 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:41,775 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 20
+2019-09-11 15:33:42,567 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 20
+2019-09-11 15:33:42,632 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:43,513 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:44,566 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:47,640 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 21
+2019-09-11 15:33:48,501 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:48,521 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 21
+2019-09-11 15:33:49,376 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:51,374 INFO Test-VM-34 migration status: running
+2019-09-11 15:33:52,725 INFO Test-VM-34 migration completed successfully, result: 'vim.VirtualMachine:vm-37116'
+2019-09-11 15:33:53,509 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 22
+2019-09-11 15:33:54,349 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:54,382 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 22
+2019-09-11 15:33:55,316 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:33:58,233 INFO VM Test-VM-34 Migration Complete Time 1568176431
+2019-09-11 15:33:58,233 INFO THREAD Test-VM-35 - Using clusters root resource pool.
+2019-09-11 15:33:58,876 INFO THREAD Test-VM-35 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:33:58,876 INFO THREAD Test-VM-35 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:33:59,159 DEBUG THREAD Test-VM-35 - Creating relocate spec
+2019-09-11 15:33:59,159 DEBUG THREAD Test-VM-35 - Resource pool found, using
+2019-09-11 15:33:59,357 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 23
+2019-09-11 15:33:59,442 INFO THREAD Test-VM-35 - DS on which clone will be created Local-2206-1
+2019-09-11 15:33:59,724 INFO THREAD Test-VM-35 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:33:59,724 DEBUG THREAD Test-VM-35 - Creating clone spec
+2019-09-11 15:33:59,724 DEBUG THREAD Test-VM-35 - Creating clone task
+2019-09-11 15:34:00,232 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:00,323 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 23
+2019-09-11 15:34:01,200 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:01,312 INFO VM Test-VM-35 Migration Queue Time 1568176439
+2019-09-11 15:34:02,392 INFO VM Test-VM-35 Migration Start Time 1568176439
+2019-09-11 15:34:03,311 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:05,239 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 24
+2019-09-11 15:34:06,168 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:06,207 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 24
+2019-09-11 15:34:07,085 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:09,989 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:11,178 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 25
+2019-09-11 15:34:12,093 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 25
+2019-09-11 15:34:12,138 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:13,032 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:16,687 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:17,145 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 26
+2019-09-11 15:34:18,039 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 26
+2019-09-11 15:34:18,042 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:18,966 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:23,051 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 27
+2019-09-11 15:34:23,460 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:23,958 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:23,974 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 27
+2019-09-11 15:34:24,838 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:28,966 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 28
+2019-09-11 15:34:29,844 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 28
+2019-09-11 15:34:30,067 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:30,098 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:30,605 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:35,105 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 29
+2019-09-11 15:34:35,613 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 29
+2019-09-11 15:34:36,066 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:36,386 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:36,510 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:41,074 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 30
+2019-09-11 15:34:41,394 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 30
+2019-09-11 15:34:41,884 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:42,181 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:43,042 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:46,892 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 31
+2019-09-11 15:34:47,189 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 31
+2019-09-11 15:34:47,666 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:47,957 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:49,501 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:52,674 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 32
+2019-09-11 15:34:52,966 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 32
+2019-09-11 15:34:53,476 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:53,755 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:56,196 INFO Test-VM-35 migration status: running
+2019-09-11 15:34:58,485 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 33
+2019-09-11 15:34:58,765 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 33
+2019-09-11 15:34:59,300 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:34:59,531 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:02,577 INFO Test-VM-35 migration status: success
+2019-09-11 15:35:03,874 INFO Test-VM-35 migration completed successfully, result: 'vim.VirtualMachine:vm-37117'
+2019-09-11 15:35:04,306 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 34
+2019-09-11 15:35:04,538 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 34
+2019-09-11 15:35:05,056 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:05,507 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:09,330 INFO VM Test-VM-35 Migration Complete Time 1568176502
+2019-09-11 15:35:09,331 INFO THREAD Test-VM-36 - Using clusters root resource pool.
+2019-09-11 15:35:09,813 INFO THREAD Test-VM-36 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:35:09,813 INFO THREAD Test-VM-36 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:35:10,064 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 35
+2019-09-11 15:35:10,074 DEBUG THREAD Test-VM-36 - Creating relocate spec
+2019-09-11 15:35:10,075 DEBUG THREAD Test-VM-36 - Resource pool found, using
+2019-09-11 15:35:10,321 INFO THREAD Test-VM-36 - DS on which clone will be created Local-2206-1
+2019-09-11 15:35:10,515 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 35
+2019-09-11 15:35:10,554 INFO THREAD Test-VM-36 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:35:10,554 DEBUG THREAD Test-VM-36 - Creating clone spec
+2019-09-11 15:35:10,555 DEBUG THREAD Test-VM-36 - Creating clone task
+2019-09-11 15:35:10,864 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:11,386 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:12,015 INFO VM Test-VM-36 Migration Queue Time 1568176510
+2019-09-11 15:35:13,070 INFO VM Test-VM-36 Migration Start Time 1568176510
+2019-09-11 15:35:13,742 INFO Test-VM-36 migration status: running
+2019-09-11 15:35:15,871 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 36
+2019-09-11 15:35:16,393 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 36
+2019-09-11 15:35:16,627 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:17,210 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:20,130 INFO Test-VM-36 migration status: running
+2019-09-11 15:35:21,635 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 37
+2019-09-11 15:35:22,219 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 37
+2019-09-11 15:35:22,485 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:23,041 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:26,608 INFO Test-VM-36 migration status: running
+2019-09-11 15:35:27,493 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 38
+2019-09-11 15:35:28,049 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 38
+2019-09-11 15:35:28,568 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:28,842 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:32,993 INFO Test-VM-36 migration status: running
+2019-09-11 15:35:33,575 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 39
+2019-09-11 15:35:33,849 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 39
+2019-09-11 15:35:34,388 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:34,675 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:39,394 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 40
+2019-09-11 15:35:39,400 INFO Test-VM-36 migration status: running
+2019-09-11 15:35:39,683 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 40
+2019-09-11 15:35:40,240 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:40,484 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:45,248 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 41
+2019-09-11 15:35:45,492 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 41
+2019-09-11 15:35:45,816 INFO Test-VM-36 migration status: running
+2019-09-11 15:35:46,020 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:46,271 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:51,027 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 42
+2019-09-11 15:35:51,280 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 42
+2019-09-11 15:35:51,838 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:52,069 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:52,214 INFO Test-VM-36 migration status: running
+2019-09-11 15:35:56,846 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 43
+2019-09-11 15:35:57,077 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 43
+2019-09-11 15:35:57,611 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:57,844 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:35:58,615 INFO Test-VM-36 migration status: running
+2019-09-11 15:36:02,619 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 44
+2019-09-11 15:36:02,852 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 44
+2019-09-11 15:36:03,399 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:03,628 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:05,111 INFO Test-VM-36 migration status: running
+2019-09-11 15:36:08,407 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 45
+2019-09-11 15:36:08,636 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 45
+2019-09-11 15:36:09,220 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:09,427 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:11,723 INFO Test-VM-36 migration status: running
+2019-09-11 15:36:14,227 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 46
+2019-09-11 15:36:14,436 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 46
+2019-09-11 15:36:15,042 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:15,269 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:18,303 INFO Test-VM-36 migration completed successfully, result: 'vim.VirtualMachine:vm-37118'
+2019-09-11 15:36:20,050 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 47
+2019-09-11 15:36:20,277 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 47
+2019-09-11 15:36:20,936 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:21,103 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:23,764 INFO VM Test-VM-36 Migration Complete Time 1568176574
+2019-09-11 15:36:23,764 INFO THREAD Test-VM-37 - Using clusters root resource pool.
+2019-09-11 15:36:24,234 INFO THREAD Test-VM-37 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:36:24,235 INFO THREAD Test-VM-37 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:36:24,459 DEBUG THREAD Test-VM-37 - Creating relocate spec
+2019-09-11 15:36:24,459 DEBUG THREAD Test-VM-37 - Resource pool found, using
+2019-09-11 15:36:24,689 INFO THREAD Test-VM-37 - DS on which clone will be created Local-2206-1
+2019-09-11 15:36:24,921 INFO THREAD Test-VM-37 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:36:24,921 DEBUG THREAD Test-VM-37 - Creating clone spec
+2019-09-11 15:36:24,921 DEBUG THREAD Test-VM-37 - Creating clone task
+2019-09-11 15:36:25,944 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 48
+2019-09-11 15:36:26,111 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 48
+2019-09-11 15:36:26,485 INFO VM Test-VM-37 Migration Queue Time 1568176585
+2019-09-11 15:36:26,751 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:26,912 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:27,444 INFO VM Test-VM-37 Migration Start Time 1568176585
+2019-09-11 15:36:28,209 INFO Test-VM-37 migration status: running
+2019-09-11 15:36:31,758 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 49
+2019-09-11 15:36:31,920 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 49
+2019-09-11 15:36:32,515 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:32,822 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:34,618 INFO Test-VM-37 migration status: running
+2019-09-11 15:36:37,523 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 50
+2019-09-11 15:36:37,830 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 50
+2019-09-11 15:36:38,315 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:38,679 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:41,216 INFO Test-VM-37 migration status: running
+2019-09-11 15:36:43,324 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 51
+2019-09-11 15:36:43,688 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 51
+2019-09-11 15:36:44,150 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:44,460 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:47,696 INFO Test-VM-37 migration status: running
+2019-09-11 15:36:49,159 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 52
+2019-09-11 15:36:49,467 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 52
+2019-09-11 15:36:49,917 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:50,229 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:36:54,924 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 53
+2019-09-11 15:36:55,236 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 53
+2019-09-11 15:36:57,622 INFO Test-VM-37 migration status: running
+2019-09-11 15:37:06,612 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:06,935 INFO Test-VM-37 migration status: running
+2019-09-11 15:37:07,039 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:11,621 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 54
+2019-09-11 15:37:12,048 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 54
+2019-09-11 15:37:12,382 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:12,835 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:13,365 INFO Test-VM-37 migration status: running
+2019-09-11 15:37:17,390 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 55
+2019-09-11 15:37:17,843 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 55
+2019-09-11 15:37:18,260 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:18,811 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:19,902 INFO Test-VM-37 migration status: running
+2019-09-11 15:37:23,268 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 56
+2019-09-11 15:37:23,819 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 56
+2019-09-11 15:37:24,399 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:25,222 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:26,635 INFO Test-VM-37 migration status: running
+2019-09-11 15:37:29,408 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 57
+2019-09-11 15:37:30,231 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 57
+2019-09-11 15:37:30,420 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:31,255 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:33,363 INFO Test-VM-37 migration completed successfully, result: 'vim.VirtualMachine:vm-37119'
+2019-09-11 15:37:35,428 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 58
+2019-09-11 15:37:36,262 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 58
+2019-09-11 15:37:36,344 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:37,354 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:38,959 INFO VM Test-VM-37 Migration Complete Time 1568176647
+2019-09-11 15:37:38,959 INFO THREAD Test-VM-38 - Using clusters root resource pool.
+2019-09-11 15:37:39,543 INFO THREAD Test-VM-38 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:37:39,543 INFO THREAD Test-VM-38 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:37:39,826 DEBUG THREAD Test-VM-38 - Creating relocate spec
+2019-09-11 15:37:39,826 DEBUG THREAD Test-VM-38 - Resource pool found, using
+2019-09-11 15:37:40,099 INFO THREAD Test-VM-38 - DS on which clone will be created Local-2206-1
+2019-09-11 15:37:40,402 INFO THREAD Test-VM-38 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:37:40,402 DEBUG THREAD Test-VM-38 - Creating clone spec
+2019-09-11 15:37:40,402 DEBUG THREAD Test-VM-38 - Creating clone task
+2019-09-11 15:37:41,352 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 59
+2019-09-11 15:37:42,046 INFO VM Test-VM-38 Migration Queue Time 1568176660
+2019-09-11 15:37:42,235 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:42,362 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 59
+2019-09-11 15:37:42,976 INFO VM Test-VM-38 Migration Start Time 1568176660
+2019-09-11 15:37:43,130 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:43,729 INFO Test-VM-38 migration status: running
+2019-09-11 15:37:47,242 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 60
+2019-09-11 15:37:48,138 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 60
+2019-09-11 15:37:48,143 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:48,963 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:50,338 INFO Test-VM-38 migration status: running
+2019-09-11 15:37:53,152 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 61
+2019-09-11 15:37:53,971 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 61
+2019-09-11 15:37:53,980 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:54,773 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:37:56,890 INFO Test-VM-38 migration status: running
+2019-09-11 15:37:58,988 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 62
+2019-09-11 15:37:59,782 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 62
+2019-09-11 15:37:59,826 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:00,626 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:03,653 INFO Test-VM-38 migration status: running
+2019-09-11 15:38:04,834 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 63
+2019-09-11 15:38:05,626 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:05,633 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 63
+2019-09-11 15:38:06,405 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:10,234 INFO Test-VM-38 migration status: running
+2019-09-11 15:38:10,634 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 64
+2019-09-11 15:38:11,412 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 64
+2019-09-11 15:38:11,457 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:12,326 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:16,465 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 65
+2019-09-11 15:38:16,702 INFO Test-VM-38 migration status: running
+2019-09-11 15:38:17,273 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:17,334 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 65
+2019-09-11 15:38:18,132 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:22,280 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 66
+2019-09-11 15:38:23,141 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 66
+2019-09-11 15:38:23,148 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:23,284 INFO Test-VM-38 migration status: running
+2019-09-11 15:38:23,902 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:28,154 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 67
+2019-09-11 15:38:28,910 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 67
+2019-09-11 15:38:29,003 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:29,814 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:29,826 INFO Test-VM-38 migration status: running
+2019-09-11 15:38:34,011 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 68
+2019-09-11 15:38:34,822 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 68
+2019-09-11 15:38:34,948 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:35,805 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:36,708 INFO Test-VM-38 migration status: running
+2019-09-11 15:38:39,956 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 69
+2019-09-11 15:38:40,813 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 69
+2019-09-11 15:38:40,887 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:41,790 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:43,586 INFO Test-VM-38 migration status: success
+2019-09-11 15:38:45,137 INFO Test-VM-38 migration completed successfully, result: 'vim.VirtualMachine:vm-37120'
+2019-09-11 15:38:45,895 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 70
+2019-09-11 15:38:46,799 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 70
+2019-09-11 15:38:46,922 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:47,630 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:50,790 INFO VM Test-VM-38 Migration Complete Time 1568176723
+2019-09-11 15:38:50,792 INFO THREAD Test-VM-39 - Using clusters root resource pool.
+2019-09-11 15:38:51,446 INFO THREAD Test-VM-39 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:38:51,447 INFO THREAD Test-VM-39 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:38:51,779 DEBUG THREAD Test-VM-39 - Creating relocate spec
+2019-09-11 15:38:51,779 DEBUG THREAD Test-VM-39 - Resource pool found, using
+2019-09-11 15:38:51,930 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 71
+2019-09-11 15:38:52,015 INFO THREAD Test-VM-39 - DS on which clone will be created Local-2206-1
+2019-09-11 15:38:52,256 INFO THREAD Test-VM-39 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:38:52,256 DEBUG THREAD Test-VM-39 - Creating clone spec
+2019-09-11 15:38:52,256 DEBUG THREAD Test-VM-39 - Creating clone task
+2019-09-11 15:38:52,640 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 71
+2019-09-11 15:38:52,816 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:53,438 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:53,843 INFO VM Test-VM-39 Migration Queue Time 1568176732
+2019-09-11 15:38:55,569 INFO VM Test-VM-39 Migration Start Time 1568176732
+2019-09-11 15:38:56,355 INFO Test-VM-39 migration status: running
+2019-09-11 15:38:57,826 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 72
+2019-09-11 15:38:58,447 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 72
+2019-09-11 15:38:58,620 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:38:59,283 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:02,899 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:03,628 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 73
+2019-09-11 15:39:04,292 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 73
+2019-09-11 15:39:04,521 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:05,080 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:09,409 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:09,530 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 74
+2019-09-11 15:39:10,088 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 74
+2019-09-11 15:39:10,377 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:10,988 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:15,386 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 75
+2019-09-11 15:39:15,996 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 75
+2019-09-11 15:39:16,017 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:16,199 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:16,813 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:21,207 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 76
+2019-09-11 15:39:21,822 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 76
+2019-09-11 15:39:22,145 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:22,677 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:22,733 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:27,154 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 77
+2019-09-11 15:39:27,741 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 77
+2019-09-11 15:39:28,218 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:28,704 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:29,295 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:33,225 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 78
+2019-09-11 15:39:33,713 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 78
+2019-09-11 15:39:34,013 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:34,545 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:35,913 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:39,021 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 79
+2019-09-11 15:39:39,553 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 79
+2019-09-11 15:39:39,846 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:40,412 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:42,396 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:44,855 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 80
+2019-09-11 15:39:45,421 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 80
+2019-09-11 15:39:46,455 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:46,535 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:48,895 INFO Test-VM-39 migration status: running
+2019-09-11 15:39:51,464 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 81
+2019-09-11 15:39:51,542 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 81
+2019-09-11 15:39:52,241 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:52,313 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:55,406 INFO Test-VM-39 migration completed successfully, result: 'vim.VirtualMachine:vm-37121'
+2019-09-11 15:39:57,248 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 82
+2019-09-11 15:39:57,320 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 82
+2019-09-11 15:39:58,006 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:39:58,175 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:00,911 INFO VM Test-VM-39 Migration Complete Time 1568176794
+2019-09-11 15:40:00,911 INFO THREAD Test-VM-40 - Using clusters root resource pool.
+2019-09-11 15:40:01,396 INFO THREAD Test-VM-40 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:40:01,396 INFO THREAD Test-VM-40 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:40:01,717 DEBUG THREAD Test-VM-40 - Creating relocate spec
+2019-09-11 15:40:01,717 DEBUG THREAD Test-VM-40 - Resource pool found, using
+2019-09-11 15:40:01,953 INFO THREAD Test-VM-40 - DS on which clone will be created Local-2206-1
+2019-09-11 15:40:02,175 INFO THREAD Test-VM-40 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:40:02,175 DEBUG THREAD Test-VM-40 - Creating clone spec
+2019-09-11 15:40:02,175 DEBUG THREAD Test-VM-40 - Creating clone task
+2019-09-11 15:40:03,014 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 83
+2019-09-11 15:40:03,183 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 83
+2019-09-11 15:40:03,670 INFO VM Test-VM-40 Migration Queue Time 1568176802
+2019-09-11 15:40:03,813 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:04,018 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:04,672 INFO VM Test-VM-40 Migration Start Time 1568176802
+2019-09-11 15:40:05,394 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:08,820 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 84
+2019-09-11 15:40:09,028 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 84
+2019-09-11 15:40:09,864 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:09,867 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:12,023 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:14,870 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 85
+2019-09-11 15:40:14,874 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 85
+2019-09-11 15:40:15,855 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:15,893 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:18,615 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:20,863 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 86
+2019-09-11 15:40:20,900 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 86
+2019-09-11 15:40:21,652 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:21,688 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:25,453 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:26,659 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 87
+2019-09-11 15:40:26,695 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 87
+2019-09-11 15:40:27,764 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:27,836 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:31,977 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:32,772 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 88
+2019-09-11 15:40:32,845 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 88
+2019-09-11 15:40:33,546 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:33,591 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:38,521 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:38,553 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 89
+2019-09-11 15:40:38,598 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 89
+2019-09-11 15:40:39,298 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:39,376 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:44,305 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 90
+2019-09-11 15:40:44,383 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 90
+2019-09-11 15:40:45,069 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:45,136 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:45,437 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:50,143 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 91
+2019-09-11 15:40:50,446 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 91
+2019-09-11 15:40:50,910 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:51,354 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:51,561 INFO Test-VM-40 migration status: running
+2019-09-11 15:40:55,919 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 92
+2019-09-11 15:40:56,362 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 92
+2019-09-11 15:40:56,706 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:57,138 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:40:58,178 INFO Test-VM-40 migration status: running
+2019-09-11 15:41:01,714 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 93
+2019-09-11 15:41:02,145 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 93
+2019-09-11 15:41:02,513 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:02,971 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:04,622 INFO Test-VM-40 migration status: running
+2019-09-11 15:41:05,926 INFO Test-VM-40 migration completed successfully, result: 'vim.VirtualMachine:vm-37122'
+2019-09-11 15:41:07,521 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 94
+2019-09-11 15:41:07,979 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 94
+2019-09-11 15:41:08,340 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:08,869 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:11,415 INFO VM Test-VM-40 Migration Complete Time 1568176864
+2019-09-11 15:41:11,417 INFO THREAD Test-VM-41 - Using clusters root resource pool.
+2019-09-11 15:41:11,965 INFO THREAD Test-VM-41 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:41:11,966 INFO THREAD Test-VM-41 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:41:12,273 DEBUG THREAD Test-VM-41 - Creating relocate spec
+2019-09-11 15:41:12,273 DEBUG THREAD Test-VM-41 - Resource pool found, using
+2019-09-11 15:41:12,501 INFO THREAD Test-VM-41 - DS on which clone will be created Local-2206-2
+2019-09-11 15:41:12,726 INFO THREAD Test-VM-41 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:41:12,726 DEBUG THREAD Test-VM-41 - Creating clone spec
+2019-09-11 15:41:12,726 DEBUG THREAD Test-VM-41 - Creating clone task
+2019-09-11 15:41:13,348 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 95
+2019-09-11 15:41:13,876 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 95
+2019-09-11 15:41:14,162 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:14,246 INFO VM Test-VM-41 Migration Queue Time 1568176872
+2019-09-11 15:41:14,716 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:15,280 INFO VM Test-VM-41 Migration Start Time 1568176872
+2019-09-11 15:41:16,166 INFO Test-VM-41 migration status: running
+2019-09-11 15:41:19,171 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 96
+2019-09-11 15:41:19,725 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 96
+2019-09-11 15:41:19,969 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:20,635 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:22,584 INFO Test-VM-41 migration status: running
+2019-09-11 15:41:24,977 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 97
+2019-09-11 15:41:25,643 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 97
+2019-09-11 15:41:25,815 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:26,424 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:29,147 INFO Test-VM-41 migration status: running
+2019-09-11 15:41:30,823 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 98
+2019-09-11 15:41:31,432 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 98
+2019-09-11 15:41:31,603 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:32,206 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:35,571 INFO Test-VM-41 migration status: running
+2019-09-11 15:41:36,611 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 99
+2019-09-11 15:41:37,213 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 99
+2019-09-11 15:41:37,380 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:37,985 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:42,116 INFO Test-VM-41 migration status: running
+2019-09-11 15:41:42,389 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 100
+2019-09-11 15:41:42,992 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 100
+2019-09-11 15:41:43,168 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:43,761 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:48,176 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 101
+2019-09-11 15:41:48,486 INFO Test-VM-41 migration status: running
+2019-09-11 15:41:48,770 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 101
+2019-09-11 15:41:48,931 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:49,553 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:53,939 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 102
+2019-09-11 15:41:54,561 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 102
+2019-09-11 15:41:54,712 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:54,914 INFO Test-VM-41 migration status: running
+2019-09-11 15:41:55,369 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:41:59,721 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 103
+2019-09-11 15:42:00,377 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 103
+2019-09-11 15:42:00,605 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:01,194 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:01,329 INFO Test-VM-41 migration status: running
+2019-09-11 15:42:05,613 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 104
+2019-09-11 15:42:06,202 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 104
+2019-09-11 15:42:06,373 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:07,009 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:07,710 INFO Test-VM-41 migration status: running
+2019-09-11 15:42:11,381 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 105
+2019-09-11 15:42:12,017 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 105
+2019-09-11 15:42:12,201 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:12,853 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:14,296 INFO Test-VM-41 migration status: running
+2019-09-11 15:42:17,210 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 106
+2019-09-11 15:42:17,862 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 106
+2019-09-11 15:42:17,975 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:18,791 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:20,694 INFO Test-VM-41 migration completed successfully, result: 'vim.VirtualMachine:vm-37123'
+2019-09-11 15:42:22,982 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 107
+2019-09-11 15:42:23,798 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 107
+2019-09-11 15:42:23,809 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:24,638 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:26,298 INFO VM Test-VM-41 Migration Complete Time 1568176935
+2019-09-11 15:42:26,298 INFO THREAD Test-VM-42 - Using clusters root resource pool.
+2019-09-11 15:42:26,773 INFO THREAD Test-VM-42 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:42:26,773 INFO THREAD Test-VM-42 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:42:27,027 DEBUG THREAD Test-VM-42 - Creating relocate spec
+2019-09-11 15:42:27,027 DEBUG THREAD Test-VM-42 - Resource pool found, using
+2019-09-11 15:42:27,334 INFO THREAD Test-VM-42 - DS on which clone will be created Local-2206-2
+2019-09-11 15:42:27,642 INFO THREAD Test-VM-42 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:42:27,643 DEBUG THREAD Test-VM-42 - Creating clone spec
+2019-09-11 15:42:27,643 DEBUG THREAD Test-VM-42 - Creating clone task
+2019-09-11 15:42:28,817 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 108
+2019-09-11 15:42:29,171 INFO VM Test-VM-42 Migration Queue Time 1568176947
+2019-09-11 15:42:29,646 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 108
+2019-09-11 15:42:29,650 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:30,206 INFO VM Test-VM-42 Migration Start Time 1568176947
+2019-09-11 15:42:30,424 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:30,892 INFO Test-VM-42 migration status: running
+2019-09-11 15:42:34,658 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 109
+2019-09-11 15:42:35,432 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 109
+2019-09-11 15:42:35,587 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:36,303 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:37,495 INFO Test-VM-42 migration status: running
+2019-09-11 15:42:40,594 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 110
+2019-09-11 15:42:41,311 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 110
+2019-09-11 15:42:41,383 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:42,140 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:43,867 INFO Test-VM-42 migration status: running
+2019-09-11 15:42:46,392 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 111
+2019-09-11 15:42:47,147 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 111
+2019-09-11 15:42:47,236 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:48,020 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:50,422 INFO Test-VM-42 migration status: running
+2019-09-11 15:42:52,244 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 112
+2019-09-11 15:42:53,028 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 112
+2019-09-11 15:42:53,042 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:53,787 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:56,929 INFO Test-VM-42 migration status: running
+2019-09-11 15:42:58,051 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 113
+2019-09-11 15:42:58,794 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 113
+2019-09-11 15:42:58,805 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:42:59,546 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:03,415 INFO Test-VM-42 migration status: running
+2019-09-11 15:43:03,813 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 114
+2019-09-11 15:43:04,554 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 114
+2019-09-11 15:43:04,568 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:05,315 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:09,576 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 115
+2019-09-11 15:43:09,797 INFO Test-VM-42 migration status: running
+2019-09-11 15:43:10,323 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 115
+2019-09-11 15:43:10,337 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:11,073 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:15,345 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 116
+2019-09-11 15:43:16,081 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 116
+2019-09-11 15:43:16,109 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:16,267 INFO Test-VM-42 migration status: running
+2019-09-11 15:43:16,841 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:21,116 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 117
+2019-09-11 15:43:21,849 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 117
+2019-09-11 15:43:21,946 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:22,665 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:22,777 INFO Test-VM-42 migration status: running
+2019-09-11 15:43:26,954 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 118
+2019-09-11 15:43:27,673 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 118
+2019-09-11 15:43:27,854 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:28,701 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:29,361 INFO Test-VM-42 migration status: running
+2019-09-11 15:43:32,864 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 119
+2019-09-11 15:43:33,710 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 119
+2019-09-11 15:43:33,754 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:34,698 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:36,099 INFO Test-VM-42 migration completed successfully, result: 'vim.VirtualMachine:vm-37124'
+2019-09-11 15:43:38,762 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 120
+2019-09-11 15:43:39,629 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:39,706 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 120
+2019-09-11 15:43:40,815 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:41,683 INFO VM Test-VM-42 Migration Complete Time 1568177010
+2019-09-11 15:43:41,683 INFO THREAD Test-VM-43 - Using clusters root resource pool.
+2019-09-11 15:43:42,267 INFO THREAD Test-VM-43 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:43:42,268 INFO THREAD Test-VM-43 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:43:42,549 DEBUG THREAD Test-VM-43 - Creating relocate spec
+2019-09-11 15:43:42,549 DEBUG THREAD Test-VM-43 - Resource pool found, using
+2019-09-11 15:43:42,835 INFO THREAD Test-VM-43 - DS on which clone will be created Local-2206-2
+2019-09-11 15:43:43,213 INFO THREAD Test-VM-43 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:43:43,213 DEBUG THREAD Test-VM-43 - Creating clone spec
+2019-09-11 15:43:43,214 DEBUG THREAD Test-VM-43 - Creating clone task
+2019-09-11 15:43:44,637 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 121
+2019-09-11 15:43:44,819 INFO VM Test-VM-43 Migration Queue Time 1568177023
+2019-09-11 15:43:45,532 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:45,823 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 121
+2019-09-11 15:43:46,015 INFO VM Test-VM-43 Migration Start Time 1568177023
+2019-09-11 15:43:46,754 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:46,910 INFO Test-VM-43 migration status: running
+2019-09-11 15:43:50,539 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 122
+2019-09-11 15:43:51,429 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:51,762 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 122
+2019-09-11 15:43:52,665 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:53,649 INFO Test-VM-43 migration status: running
+2019-09-11 15:43:56,434 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 123
+2019-09-11 15:43:57,405 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:43:57,671 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 123
+2019-09-11 15:43:58,504 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:00,375 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:02,412 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 124
+2019-09-11 15:44:03,340 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:03,512 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 124
+2019-09-11 15:44:04,389 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:07,017 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:08,346 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 125
+2019-09-11 15:44:09,325 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:09,396 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 125
+2019-09-11 15:44:10,337 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:13,615 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:14,331 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 126
+2019-09-11 15:44:15,287 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:15,344 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 126
+2019-09-11 15:44:16,222 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:20,148 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:20,294 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 127
+2019-09-11 15:44:21,184 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:21,230 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 127
+2019-09-11 15:44:22,043 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:26,192 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 128
+2019-09-11 15:44:26,691 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:26,935 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:27,050 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 128
+2019-09-11 15:44:27,911 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:31,944 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 129
+2019-09-11 15:44:32,704 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:32,919 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 129
+2019-09-11 15:44:33,055 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:33,686 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:37,712 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 130
+2019-09-11 15:44:38,464 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:38,693 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 130
+2019-09-11 15:44:39,429 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:39,446 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:43,471 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 131
+2019-09-11 15:44:44,300 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:44,455 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 131
+2019-09-11 15:44:45,413 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:45,800 INFO Test-VM-43 migration status: running
+2019-09-11 15:44:46,949 INFO Test-VM-43 migration completed successfully, result: 'vim.VirtualMachine:vm-37125'
+2019-09-11 15:44:49,309 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 132
+2019-09-11 15:44:50,238 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:50,421 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 132
+2019-09-11 15:44:51,354 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:52,409 INFO VM Test-VM-43 Migration Complete Time 1568177085
+2019-09-11 15:44:52,410 INFO THREAD Test-VM-44 - Using clusters root resource pool.
+2019-09-11 15:44:52,898 INFO THREAD Test-VM-44 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:44:52,898 INFO THREAD Test-VM-44 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:44:53,121 DEBUG THREAD Test-VM-44 - Creating relocate spec
+2019-09-11 15:44:53,121 DEBUG THREAD Test-VM-44 - Resource pool found, using
+2019-09-11 15:44:53,344 INFO THREAD Test-VM-44 - DS on which clone will be created Local-2206-2
+2019-09-11 15:44:53,655 INFO THREAD Test-VM-44 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:44:53,655 DEBUG THREAD Test-VM-44 - Creating clone spec
+2019-09-11 15:44:53,655 DEBUG THREAD Test-VM-44 - Creating clone task
+2019-09-11 15:44:55,117 INFO VM Test-VM-44 Migration Queue Time 1568177093
+2019-09-11 15:44:55,247 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 133
+2019-09-11 15:44:56,047 INFO VM Test-VM-44 Migration Start Time 1568177093
+2019-09-11 15:44:56,054 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:44:56,361 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 133
+2019-09-11 15:44:56,781 INFO Test-VM-44 migration status: running
+2019-09-11 15:44:57,330 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:01,062 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 134
+2019-09-11 15:45:01,964 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:02,338 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 134
+2019-09-11 15:45:03,222 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:04,480 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:06,972 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 135
+2019-09-11 15:45:08,080 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:09,489 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 135
+2019-09-11 15:45:09,662 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:10,302 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:13,087 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 136
+2019-09-11 15:45:13,879 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:15,309 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 136
+2019-09-11 15:45:16,141 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:16,225 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:18,886 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 137
+2019-09-11 15:45:19,640 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:21,149 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 137
+2019-09-11 15:45:21,928 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:22,696 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:24,648 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 138
+2019-09-11 15:45:25,532 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:26,937 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 138
+2019-09-11 15:45:27,713 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:29,065 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:30,540 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 139
+2019-09-11 15:45:31,406 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:32,721 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 139
+2019-09-11 15:45:33,474 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:35,424 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:36,414 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 140
+2019-09-11 15:45:37,247 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:38,483 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 140
+2019-09-11 15:45:39,298 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:41,832 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:42,255 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 141
+2019-09-11 15:45:43,065 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:44,306 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 141
+2019-09-11 15:45:45,134 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:48,073 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 142
+2019-09-11 15:45:48,277 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:48,876 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:50,143 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 142
+2019-09-11 15:45:50,967 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:53,884 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 143
+2019-09-11 15:45:54,641 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:54,722 INFO Test-VM-44 migration status: running
+2019-09-11 15:45:55,976 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 143
+2019-09-11 15:45:56,800 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:45:59,649 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 144
+2019-09-11 15:46:00,482 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:01,101 INFO Test-VM-44 migration completed successfully, result: 'vim.VirtualMachine:vm-37126'
+2019-09-11 15:46:01,807 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 144
+2019-09-11 15:46:02,631 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:05,491 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 145
+2019-09-11 15:46:06,249 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:06,562 INFO VM Test-VM-44 Migration Complete Time 1568177156
+2019-09-11 15:46:06,563 INFO THREAD Test-VM-45 - Using clusters root resource pool.
+2019-09-11 15:46:07,107 INFO THREAD Test-VM-45 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:46:07,107 INFO THREAD Test-VM-45 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:46:07,385 DEBUG THREAD Test-VM-45 - Creating relocate spec
+2019-09-11 15:46:07,385 DEBUG THREAD Test-VM-45 - Resource pool found, using
+2019-09-11 15:46:07,639 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 145
+2019-09-11 15:46:07,649 INFO THREAD Test-VM-45 - DS on which clone will be created Local-2206-2
+2019-09-11 15:46:07,894 INFO THREAD Test-VM-45 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:46:07,895 DEBUG THREAD Test-VM-45 - Creating clone spec
+2019-09-11 15:46:07,895 DEBUG THREAD Test-VM-45 - Creating clone task
+2019-09-11 15:46:08,445 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:09,376 INFO VM Test-VM-45 Migration Queue Time 1568177168
+2019-09-11 15:46:10,389 INFO VM Test-VM-45 Migration Start Time 1568177168
+2019-09-11 15:46:11,139 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:11,256 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 146
+2019-09-11 15:46:12,055 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:13,451 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 146
+2019-09-11 15:46:14,306 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:17,063 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 147
+2019-09-11 15:46:17,582 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:17,848 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:19,314 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 147
+2019-09-11 15:46:20,141 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:22,857 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 148
+2019-09-11 15:46:23,727 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:24,104 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:25,150 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 148
+2019-09-11 15:46:25,942 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:28,736 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 149
+2019-09-11 15:46:29,534 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:30,646 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:30,951 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 149
+2019-09-11 15:46:31,711 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:34,542 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 150
+2019-09-11 15:46:35,420 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:36,718 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 150
+2019-09-11 15:46:37,073 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:37,805 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:40,428 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 151
+2019-09-11 15:46:41,340 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:42,812 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 151
+2019-09-11 15:46:43,599 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:43,710 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:46,348 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 152
+2019-09-11 15:46:47,104 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:48,717 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 152
+2019-09-11 15:46:49,469 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:50,045 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:52,112 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 153
+2019-09-11 15:46:52,912 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:54,476 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 153
+2019-09-11 15:46:55,268 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:46:56,582 INFO Test-VM-45 migration status: running
+2019-09-11 15:46:57,920 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 154
+2019-09-11 15:46:58,751 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:00,276 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 154
+2019-09-11 15:47:01,103 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:03,137 INFO Test-VM-45 migration status: running
+2019-09-11 15:47:03,759 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 155
+2019-09-11 15:47:04,511 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:06,111 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 155
+2019-09-11 15:47:06,857 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:09,519 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 156
+2019-09-11 15:47:09,650 INFO Test-VM-45 migration status: running
+2019-09-11 15:47:10,356 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:10,849 INFO Test-VM-45 migration completed successfully, result: 'vim.VirtualMachine:vm-37127'
+2019-09-11 15:47:11,866 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 156
+2019-09-11 15:47:12,682 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:15,364 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 157
+2019-09-11 15:47:16,193 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:16,392 INFO VM Test-VM-45 Migration Complete Time 1568177229
+2019-09-11 15:47:16,392 INFO THREAD Test-VM-46 - Using clusters root resource pool.
+2019-09-11 15:47:16,948 INFO THREAD Test-VM-46 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:47:16,948 INFO THREAD Test-VM-46 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:47:17,182 DEBUG THREAD Test-VM-46 - Creating relocate spec
+2019-09-11 15:47:17,183 DEBUG THREAD Test-VM-46 - Resource pool found, using
+2019-09-11 15:47:17,421 INFO THREAD Test-VM-46 - DS on which clone will be created Local-2206-2
+2019-09-11 15:47:17,649 INFO THREAD Test-VM-46 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:47:17,649 DEBUG THREAD Test-VM-46 - Creating clone spec
+2019-09-11 15:47:17,649 DEBUG THREAD Test-VM-46 - Creating clone task
+2019-09-11 15:47:17,690 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 157
+2019-09-11 15:47:18,450 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:19,124 INFO VM Test-VM-46 Migration Queue Time 1568177237
+2019-09-11 15:47:20,197 INFO VM Test-VM-46 Migration Start Time 1568177237
+2019-09-11 15:47:21,038 INFO Test-VM-46 migration status: running
+2019-09-11 15:47:21,202 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 158
+2019-09-11 15:47:21,993 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:23,459 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 158
+2019-09-11 15:47:24,387 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:27,001 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 159
+2019-09-11 15:47:27,448 INFO Test-VM-46 migration status: running
+2019-09-11 15:47:27,782 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:29,395 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 159
+2019-09-11 15:47:30,207 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:32,791 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 160
+2019-09-11 15:47:33,554 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:33,925 INFO Test-VM-46 migration status: running
+2019-09-11 15:47:35,215 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 160
+2019-09-11 15:47:36,124 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:38,562 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 161
+2019-09-11 15:47:39,362 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:40,533 INFO Test-VM-46 migration status: running
+2019-09-11 15:47:41,132 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 161
+2019-09-11 15:47:41,972 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:44,370 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 162
+2019-09-11 15:47:45,243 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:46,979 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 162
+2019-09-11 15:47:47,202 INFO Test-VM-46 migration status: running
+2019-09-11 15:47:47,816 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:50,251 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 163
+2019-09-11 15:47:51,076 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:52,825 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 163
+2019-09-11 15:47:53,657 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:53,773 INFO Test-VM-46 migration status: running
+2019-09-11 15:47:56,085 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 164
+2019-09-11 15:47:56,915 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:47:58,665 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 164
+2019-09-11 15:47:59,550 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:00,233 INFO Test-VM-46 migration status: running
+2019-09-11 15:48:01,923 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 165
+2019-09-11 15:48:02,904 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:04,557 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 165
+2019-09-11 15:48:05,512 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:06,891 INFO Test-VM-46 migration status: running
+2019-09-11 15:48:07,914 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 166
+2019-09-11 15:48:08,763 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:10,522 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 166
+2019-09-11 15:48:11,356 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:13,444 INFO Test-VM-46 migration status: running
+2019-09-11 15:48:13,771 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 167
+2019-09-11 15:48:14,630 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:16,365 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 167
+2019-09-11 15:48:17,187 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:19,638 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 168
+2019-09-11 15:48:19,915 INFO Test-VM-46 migration status: running
+2019-09-11 15:48:20,424 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:21,228 INFO Test-VM-46 migration completed successfully, result: 'vim.VirtualMachine:vm-37128'
+2019-09-11 15:48:22,194 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 168
+2019-09-11 15:48:23,125 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:25,431 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 169
+2019-09-11 15:48:26,374 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:26,739 INFO VM Test-VM-46 Migration Complete Time 1568177300
+2019-09-11 15:48:26,739 INFO THREAD Test-VM-47 - Using clusters root resource pool.
+2019-09-11 15:48:27,267 INFO THREAD Test-VM-47 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:48:27,268 INFO THREAD Test-VM-47 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:48:27,573 DEBUG THREAD Test-VM-47 - Creating relocate spec
+2019-09-11 15:48:27,574 DEBUG THREAD Test-VM-47 - Resource pool found, using
+2019-09-11 15:48:27,880 INFO THREAD Test-VM-47 - DS on which clone will be created Local-2206-2
+2019-09-11 15:48:28,133 INFO THREAD Test-VM-47 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:48:28,133 DEBUG THREAD Test-VM-47 - Creating clone spec
+2019-09-11 15:48:28,134 DEBUG THREAD Test-VM-47 - Creating clone task
+2019-09-11 15:48:28,133 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 169
+2019-09-11 15:48:29,089 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:29,655 INFO VM Test-VM-47 Migration Queue Time 1568177308
+2019-09-11 15:48:30,708 INFO VM Test-VM-47 Migration Start Time 1568177308
+2019-09-11 15:48:31,382 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 170
+2019-09-11 15:48:31,480 INFO Test-VM-47 migration status: running
+2019-09-11 15:48:32,247 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:34,097 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 170
+2019-09-11 15:48:34,982 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:37,256 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 171
+2019-09-11 15:48:38,087 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:38,185 INFO Test-VM-47 migration status: running
+2019-09-11 15:48:39,990 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 171
+2019-09-11 15:48:40,946 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:43,095 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 172
+2019-09-11 15:48:43,949 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:44,754 INFO Test-VM-47 migration status: running
+2019-09-11 15:48:45,954 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 172
+2019-09-11 15:48:46,819 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:48,957 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 173
+2019-09-11 15:48:49,863 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:51,448 INFO Test-VM-47 migration status: running
+2019-09-11 15:48:51,828 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 173
+2019-09-11 15:48:52,771 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:54,872 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 174
+2019-09-11 15:48:55,619 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:48:57,779 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 174
+2019-09-11 15:48:58,020 INFO Test-VM-47 migration status: running
+2019-09-11 15:48:58,543 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:00,627 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 175
+2019-09-11 15:49:01,550 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:03,551 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 175
+2019-09-11 15:49:04,304 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:04,428 INFO Test-VM-47 migration status: running
+2019-09-11 15:49:06,559 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 176
+2019-09-11 15:49:07,369 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:09,312 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 176
+2019-09-11 15:49:10,179 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:10,993 INFO Test-VM-47 migration status: running
+2019-09-11 15:49:12,378 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 177
+2019-09-11 15:49:13,140 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:15,187 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 177
+2019-09-11 15:49:15,935 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:17,455 INFO Test-VM-47 migration status: running
+2019-09-11 15:49:18,147 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 178
+2019-09-11 15:49:18,917 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:20,944 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 178
+2019-09-11 15:49:21,804 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:23,853 INFO Test-VM-47 migration status: running
+2019-09-11 15:49:23,926 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 179
+2019-09-11 15:49:24,682 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:26,812 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 179
+2019-09-11 15:49:27,559 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:29,690 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 180
+2019-09-11 15:49:30,255 INFO Test-VM-47 migration status: running
+2019-09-11 15:49:30,458 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:32,568 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 180
+2019-09-11 15:49:33,458 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:35,467 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 181
+2019-09-11 15:49:36,269 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:36,607 INFO Test-VM-47 migration completed successfully, result: 'vim.VirtualMachine:vm-37129'
+2019-09-11 15:49:38,465 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 181
+2019-09-11 15:49:39,552 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:41,277 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 182
+2019-09-11 15:49:42,064 INFO VM Test-VM-47 Migration Complete Time 1568177371
+2019-09-11 15:49:42,064 INFO THREAD Test-VM-48 - Using clusters root resource pool.
+2019-09-11 15:49:43,152 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:43,371 INFO THREAD Test-VM-48 - resource pool 'vim.ResourcePool:resgroup-33110'
+2019-09-11 15:49:43,372 INFO THREAD Test-VM-48 - Setting folder to datacenter root folder as a datacenter has been defined
+2019-09-11 15:49:43,658 DEBUG THREAD Test-VM-48 - Creating relocate spec
+2019-09-11 15:49:43,658 DEBUG THREAD Test-VM-48 - Resource pool found, using
+2019-09-11 15:49:43,966 INFO THREAD Test-VM-48 - DS on which clone will be created Local-2206-2
+2019-09-11 15:49:44,273 INFO THREAD Test-VM-48 - Host on which clone will be created w1-hs4-n2206.eng.vmware.com
+2019-09-11 15:49:44,273 DEBUG THREAD Test-VM-48 - Creating clone spec
+2019-09-11 15:49:44,274 DEBUG THREAD Test-VM-48 - Creating clone task
+2019-09-11 15:49:44,560 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 182
+2019-09-11 15:49:45,453 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:45,916 INFO VM Test-VM-48 Migration Queue Time 1568177384
+2019-09-11 15:49:46,818 INFO VM Test-VM-48 Migration Start Time 1568177384
+2019-09-11 15:49:47,658 INFO Test-VM-48 migration status: running
+2019-09-11 15:49:48,160 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 183
+2019-09-11 15:49:48,965 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:50,461 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 183
+2019-09-11 15:49:51,297 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:53,972 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 184
+2019-09-11 15:49:54,055 INFO Test-VM-48 migration status: running
+2019-09-11 15:49:54,883 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:56,306 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 184
+2019-09-11 15:49:57,139 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:49:59,892 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 185
+2019-09-11 15:50:00,487 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:00,665 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:02,147 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 185
+2019-09-11 15:50:02,907 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:05,674 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 186
+2019-09-11 15:50:06,517 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:06,961 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:07,915 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 186
+2019-09-11 15:50:08,679 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:11,525 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 187
+2019-09-11 15:50:12,308 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:13,336 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:13,687 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 187
+2019-09-11 15:50:14,493 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:17,317 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 188
+2019-09-11 15:50:18,129 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:19,502 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 188
+2019-09-11 15:50:19,882 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:20,258 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:23,137 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 189
+2019-09-11 15:50:23,967 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:25,267 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 189
+2019-09-11 15:50:26,108 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:26,334 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:28,975 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 190
+2019-09-11 15:50:29,800 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:31,116 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 190
+2019-09-11 15:50:32,050 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:32,872 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:34,808 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 191
+2019-09-11 15:50:35,780 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:37,059 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 191
+2019-09-11 15:50:37,955 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:39,536 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:40,788 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 192
+2019-09-11 15:50:41,605 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:42,963 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 192
+2019-09-11 15:50:43,832 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:46,085 INFO Test-VM-48 migration status: running
+2019-09-11 15:50:46,613 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 193
+2019-09-11 15:50:47,414 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:48,843 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 193
+2019-09-11 15:50:49,634 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:52,421 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 194
+2019-09-11 15:50:52,494 INFO Test-VM-48 migration completed successfully, result: 'vim.VirtualMachine:vm-37130'
+2019-09-11 15:50:53,175 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:54,643 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 194
+2019-09-11 15:50:55,621 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:50:57,992 INFO VM Test-VM-48 Migration Complete Time 1568177447
+2019-09-11 15:50:57,992 DEBUG Closing virtual machine cloning pool
+2019-09-11 15:50:57,992 DEBUG Monitoring virtual machine migration task pool
+2019-09-11 15:50:58,119 DEBUG THREAD - w1-hs4-n2201.eng.vmware.com - Plotting Network for host 
+2019-09-11 15:50:58,124 DEBUG THREAD - w1-hs4-n2201.eng.vmware.com - Unique DS [u'Local-2201-1', u'Local-2201-2']
+2019-09-11 15:50:58,129 DEBUG THREAD - w1-hs4-n2206.eng.vmware.com - Plotting Network for host 
+2019-09-11 15:50:58,133 DEBUG THREAD - w1-hs4-n2206.eng.vmware.com - Unique DS [u'Local-2206-2', u'Local-2206-1']
+2019-09-11 15:50:58,183 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 195
+2019-09-11 15:50:59,039 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:51:00,629 INFO THREAD -w1-hs4-n2206.eng.vmware.com- w1-hs4-n2206.eng.vmware.com host stats collection iteration 195
+2019-09-11 15:51:01,419 INFO = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+2019-09-11 15:51:03,483 INFO Finished all tasks
+2019-09-11 15:51:03,484 INFO The output is logged to CloneOps-11092019153045.log
+2019-09-11 15:51:04,046 INFO THREAD -w1-hs4-n2201.eng.vmware.com- w1-hs4-n2201.eng.vmware.com host stats collection iteration 196
