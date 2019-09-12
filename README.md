@@ -10,7 +10,7 @@ For example the below image displays the result of 16 VM Concurrent Cloning Oper
 
 The below image depicts the resource usage aswell as time taken if the Operation would have proceeded sequentially.
 
-![16 VM Sequential Concurrent Operation](https://raw.githubusercontent.com/2spmohanty/Performance/master/images/16_1_Ops.png)
+![16 VM Sequential Concurrent Operation](https://raw.githubusercontent.com/2spmohanty/Performance/master/image/16_1_Ops.png)
  
 # How to Run.
 
