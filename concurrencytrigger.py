@@ -27,12 +27,11 @@ from dateutil import tz
 from collections import defaultdict
 from pydoc import locate
 
-
+from framework.common import TestConstants as tc
 
 
 
 from sqlalchemy.ext.declarative import declarative_base
-
 from sqlalchemy import create_engine,Table, Column, Integer, String, MetaData
 import os
 
@@ -155,7 +154,7 @@ def main():
         except Exception, e:
             print("Could Not Remove DB %s due to error %s." % (myDb, e))
 
-    TestConstants.logger.debug('Setting up pools and process for migration')
+    TestConstants.logger.debug('Setting up pools and process for %s operation'%ops_name)
     TestConstants.pool = ThreadPool(threads)
     TestConstants.task_pool = ThreadPool(threads)
 
@@ -164,6 +163,7 @@ def main():
         #print ("%s , %s "%(tc.test_data, instances))
         test_specs = []
         TestConstants.logger.info("Start Test %s"%ops_name)
+        logger = TestConstants.logger
         TestConstants.testname = ops_name
         TestConstants.stressparam = stressparam
         TestConstants.test_data,TestConstants.process = DataParser.DataGenerator(TestConstants.stressparam, TestConstants.testname)
@@ -175,6 +175,12 @@ def main():
                 TestConstants.stat_enable["datastore"] = True
             if stat in "disk":
                 TestConstants.stat_enable["disk"] = True
+            if stat in "cpu":
+                TestConstants.stat_enable["cpu"] = True
+            if stat in "mem":
+                TestConstants.stat_enable["mem"] = True
+
+
         #print "Debug %s"%test_data
 
         #Reflect the Test Type and Start Run
@@ -200,3 +206,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print "End of Main Function"

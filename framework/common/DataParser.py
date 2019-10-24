@@ -37,17 +37,22 @@ def DataGenerator(filename,testname):
                     if test_instance == "*":
                         common_instance[test_variable] = test_data
                     else:
+                        #print(testname, test_instance, test_variable, test_data)
                         instance_dict[test_instance] = instance_dict.get(test_instance,"") + "," + test_variable + ":" + test_data
 
-
-        for instance in instance_dict:
-            instance_data[instance] = dict((x,y) for x,y in (item.split(":") for item in instance_dict[instance].strip(",").split(",")))
+        if instance_dict:
+            for instance in instance_dict:
+                #print instance
+                instance_data[instance] = dict((x,y) for x,y in (item.split(":") for item in instance_dict[instance].strip(",").split(",")))
+                #print str(instance_data[instance])
 
 
 
 
 
         final_data[testname] = {"common":common_instance,"instance":instance_data}
+
+    #print str(final_data)
 
     return final_data,len(instance_dict)
 

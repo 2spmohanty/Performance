@@ -424,7 +424,7 @@ def GetAllVDS(datacenter=None):
     if datacenter == None:
         print("Not specify datacenter object, retrieve all VDS switches from all datacenters")
 
-        si = si = Login("10.146.13.160","administrator@vsphere.local","Admin!23",port=443)
+        si = si = Login("10.146.13.160","administrator@vsphere.local","vc_password",port=443)
         print("si:" + str(si))
         dcs = Datacenter.GetAllDatacenters(si)
         for dc in dcs:

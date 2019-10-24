@@ -29,7 +29,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship,sessionmaker
 from sqlalchemy import create_engine
 
-
+import time
 
 logger = tc.logger
 pool = tc.pool
@@ -215,7 +215,7 @@ def runTest():
 
         logger.debug("Stats for Host that needs to plot %s"%statrequired)
 
-
+        """
 
         for host, dsnames in host_stat_spec.items():
             hs = hs_data[host]
@@ -232,10 +232,10 @@ def runTest():
             esx_stat_collection.name = host
             esx_stat_collection.daemon = True
             esx_stat_collection.start()
+        """
 
 
-
-
+        #time.sleep(5)  # Introducing Sleep to Collect Host Data First
 
         pool.map(v_clone_handler_wrapper, clone_specs)
         logger.debug('Closing virtual machine cloning pool')
@@ -252,7 +252,7 @@ def runTest():
 
         #GraphPlotter.PlotIt(vms=vmdb,datastoreinfo=host_stat_spec,otherhostinfo=hs_data)
 
-        GraphFeeder.DrawIt(vms=vmdb,datastoreinfo=host_stat_spec)
+        #GraphFeeder.DrawIt(vms=vmdb,datastoreinfo=host_stat_spec)
 
 
 

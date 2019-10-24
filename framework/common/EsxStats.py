@@ -28,11 +28,12 @@ import multiprocessing
 
 from framework.vcenter import Datacenter, Cluster
 
+
 import sys
 
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship,sessionmaker
-from sqlalchemy import create_engine,Table, Column, Integer, String, MetaData
+from sqlalchemy import create_engine,Table, Column, Integer, String, MetaData , Float
 import os
 
 
@@ -46,6 +47,8 @@ class NetworkData(Base):
     usage = Column(Integer)
     unit = Column(String(5))
     maxspeed = Column(Integer)
+    sent = Column(Integer)
+    received = Column(Integer)
 
 
 class DSData(Base):
@@ -57,6 +60,23 @@ class DSData(Base):
     dsread = Column(Integer)
     dswrite = Column(Integer)
     unit = Column(String(5))
+    totalread = Column(Integer)
+    totalwrite = Column(Integer)
+
+class MemData(Base):
+    __tablename__ = 'memtable'
+    id = Column(Integer, primary_key=True)
+    time = Column(String(20))
+    usage = Column(Float)
+
+class CpuData(Base):
+    __tablename__ = 'cputable'
+    id = Column(Integer, primary_key=True)
+    time = Column(String(20))
+    coreid = Column(Integer)
+    coreutil = Column(Float)
+    
+
 
 def createDB(engine):
     Base.metadata.create_all(engine)
@@ -73,10 +93,18 @@ def add_row(iteration,type,DBSession,time,**kwargs):
     try:
         session = DBSession()
         if type == "network":
-            storestat = NetworkData(time=time,network=kwargs["name"],usage=kwargs["usage"],unit = kwargs["unit"],maxspeed = kwargs["maxspeed"])
+            storestat = NetworkData(time=time,network=kwargs["name"],usage=kwargs["usage"],unit = kwargs["unit"],maxspeed = kwargs["maxspeed"],
+                                    sent= kwargs["sent"] , received =  kwargs["received"])
             session.add(storestat)
-        else:
-            storestat = DSData(time=time,hostname=kwargs["hostname"],datastore=kwargs["name"],dsread=kwargs["dsread"],dswrite=kwargs["dswrite"],unit = kwargs["unit"])
+        elif type == "datastore":
+            storestat = DSData(time=time,hostname=kwargs["hostname"],datastore=kwargs["name"],dsread=kwargs["dsread"],dswrite=kwargs["dswrite"],
+                               unit = kwargs["unit"], totalread=kwargs["totalread"], totalwrite = kwargs["totalwrite"])
+            session.add(storestat)
+        elif type == "cpu":
+            storestat = CpuData(time=time,coreid=kwargs["coreid"],coreutil = kwargs["coreutil"])
+            session.add(storestat)
+        elif type == "mem":
+            storestat = MemData(time=time,usage=kwargs["usage"])
             session.add(storestat)
 
         session.commit()
@@ -97,6 +125,8 @@ def PerfData(logger,statrequired,vc,username,password,datacenter,cluster,hostNam
     dscollection = statrequired.get("datastore",False)
     niccollection = statrequired.get("nic", False)
     diskcollection = statrequired.get("disk", False)
+    cpucollection = statrequired.get("cpu", False)
+    memcollection = statrequired.get("mem", False)
 
     threadname = multiprocessing.current_process().name
     si = Datacenter.Login(logger,vc, username, password, port=443)
@@ -129,7 +159,7 @@ def PerfData(logger,statrequired,vc,username,password,datacenter,cluster,hostNam
                 linkspeed = hostPnic.linkSpeed.speedMb
                 logger.debug("THREAD -%s- Link Speed is  %s" % (threadname, linkspeed))
 
-        SUMMARY_INTERVALID = 5 * 60
+        SUMMARY_INTERVALID = 1 * 30
         hostName = host.name
         content = si.RetrieveContent()
         perfMgr = content.perfManager
@@ -162,10 +192,10 @@ def PerfData(logger,statrequired,vc,username,password,datacenter,cluster,hostNam
             if cntrInfo.key < 0:
                 STATS_TO_QUERY.append(statName)
 
-        summarySpecs = []
+        #summarySpecs = []
 
 
-
+        """
 
         hostQuerySpec = vim.PerformanceManager.QuerySpec()
         hostQuerySpec.entity = host
@@ -173,6 +203,8 @@ def PerfData(logger,statrequired,vc,username,password,datacenter,cluster,hostNam
         hostQuerySpec.format = vim.PerformanceManager.Format.csv
         hostQuerySpec.metricId = metricIds
         summarySpecs.append(hostQuerySpec)
+        
+        
 
         querySpecs = copy.deepcopy(summarySpecs)
 
@@ -183,6 +215,8 @@ def PerfData(logger,statrequired,vc,username,password,datacenter,cluster,hostNam
             spec.maxSample = 1
             # Request Format.normal - we don't want to convert string to int64
             spec.format = vim.PerformanceManager.Format.normal
+            
+        """
 
         loop = True
         tzinfos = {"UTC": 0}
@@ -191,20 +225,50 @@ def PerfData(logger,statrequired,vc,username,password,datacenter,cluster,hostNam
 
         while True:
 
-
+            querySpecs = None
 
             logger.info("THREAD -%s- %s host stats collection iteration %s"%(threadname,hostName,iteration))
             iteration +=1
             ds_unit = None
-            startTime = parse(str(si.CurrentTime()), tzinfos=tzinfos).strftime('%s')
-            queryResult = perfMgr.QueryStats(querySpecs)
+            collectionTime = si.CurrentTime()
+            startTime = parse(str(collectionTime), tzinfos=tzinfos).strftime('%s')
+
+
+            logger.info("* " * 10)
+            logger.debug("Stat collection Instance %s Begins " % iteration)
+            logger.info("* " * 10)
 
             esx_data = defaultdict(list)
+            esx_nic_data = {}
+            esx_ds_data = {}
+
+            summarySpecs = []
+
+            hostQuerySpec = vim.PerformanceManager.QuerySpec()
+            hostQuerySpec.entity = host
+            hostQuerySpec.intervalId = SUMMARY_INTERVALID
+            hostQuerySpec.format = vim.PerformanceManager.Format.csv
+            hostQuerySpec.metricId = metricIds
+            hostQuerySpec.endTime = collectionTime
+            summarySpecs.append(hostQuerySpec)
+
+            querySpecs = copy.deepcopy(summarySpecs)
+
+
+
+            for spec in querySpecs:
+                # real-time interval
+                spec.intervalId = 20
+                # we need only one sample - the last one
+                spec.maxSample = 1
+                # Request Format.normal - we don't want to convert string to int64
+                spec.format = vim.PerformanceManager.Format.normal
+
+            queryResult = perfMgr.QueryStats(querySpecs)
+
+
             for entityMetric in queryResult:
                 statCounter +=1
-                logger.info("= "*80 )
-
-
 
                 for series in entityMetric.value:
 
@@ -214,46 +278,131 @@ def PerfData(logger,statrequired,vc,username,password,datacenter,cluster,hostNam
                     entity = entityMetric.entity
                     unit = idToNameMap[counterId][2]
                     statValue = series.value[-1]
-                    #logger.debug("Stat Name ******** @@@@@@@@@@@@ %s Value %s"%(statName,statValue))
+                    if iteration in [5,6]:
+                        pass
+                        #logger.debug("Stat Name: %s,  Instance: %s, Value %s, Unit : %s"%(statName,instanceStr,statValue,unit))
                     if niccollection and statName == "net.usage" and instanceStr == pnic:
-                        add_row(iteration,"network",DBSession,startTime,name=instanceStr,usage=statValue,unit=unit,maxspeed=linkspeed)
+                        #logger.debug("statCounter=%s, name=%s, usage=%s, maxspeed=%s"%(statCounter,instanceStr,statValue,linkspeed))
+                        # add_row(iteration,"network",DBSession,startTime,name=instanceStr,usage=statValue,unit=unit,maxspeed=linkspeed)
+                        #logger.debug("Iteration: %s , Net Usage: %s"%(iteration,statValue))
+                        #esx_nic_data.setdefault(pnic,[]).append("usage:%s"%unit)
+                        #esx_nic_data.setdefault(pnic, []).append("unit:%s" % statValue)
+                        esx_nic_data["unit"] = unit
+                        esx_nic_data["usage"] = statValue
+                    if niccollection and statName == "net.bytesTx" and instanceStr == pnic:
+                        #logger.debug("Iteration: %s , Net Tx: %s" % (iteration, statValue))
+                        #esx_nic_data.setdefault(pnic,[]).append("Tx:%s"%statValue)
+                        esx_nic_data["Tx"] = statValue
+                    if niccollection and statName == "net.bytesRx" and instanceStr == pnic:
+                        #logger.debug("Iteration: %s , Net Rx: %s" % (iteration, statValue))
+                        esx_nic_data["Rx"] = statValue
+                        #esx_nic_data.setdefault(pnic,[]).append("Rx:%s"%statValue)
+
+
+
+                    #Data Store Collection
+
                     if dscollection and statName == "datastore.totalReadLatency" and instanceStr in dataStoreIds.keys():
-                        esx_data.setdefault(dataStoreIds[instanceStr], []).append("read:%s"%statValue)
+                        #logger.debug("statCounter=%s, instance=%s , statValue= %s" % (statCounter, instanceStr, statValue))
+                        esx_data.setdefault(dataStoreIds[instanceStr], []).append("read_latency:%s"%statValue)
                         ds_unit = unit
+                        #esx_data["read_latency"] = statValue
                     if dscollection and statName == "datastore.totalWriteLatency" and instanceStr in dataStoreIds.keys():
-                        esx_data.setdefault(dataStoreIds[instanceStr], []).append("write:%s" % statValue)
-                        ds_unit = unit
+                        #logger.debug("statCounter=%s, instance=%s , statValue= %s" % (statCounter, instanceStr, statValue))
+                        esx_data.setdefault(dataStoreIds[instanceStr], []).append("write_latency:%s" % statValue)
+                        #ds_unit = unit
+                        #esx_data["write_latency"] = statValue
+                    if dscollection and statName == "datastore.write" and instanceStr in dataStoreIds.keys():
+                        #logger.debug("statCounter=%s, instance=%s , statValue= %s" % (statCounter, instanceStr, statValue))
+                        esx_data.setdefault(dataStoreIds[instanceStr], []).append("write_total:%s" % statValue)
+                        #ds_unit = unit
+                        #esx_data["write_total"] = statValue
+                    if dscollection and statName == "datastore.read" and instanceStr in dataStoreIds.keys():
+                        #logger.debug("statCounter=%s, instance=%s , statValue= %s" % (statCounter, instanceStr, statValue))
+                        esx_data.setdefault(dataStoreIds[instanceStr], []).append("read_total:%s" % statValue)
+                        #ds_unit = unit
+                        #esx_data["read_total"] = statValue
 
 
-                for ds, values in esx_data.iteritems():
-                    name = ds
-                    r = None
-                    w = None
+                    #CPU Collection
 
-                    arr1 = values[0].split(":")
-                    arr2 = values[1].split(":")
-                    if "read" in arr1:
-                        r = arr1[1]
-                    else:
-                        r = arr2[1]
-                    if "read" in arr1:
-                        w = arr1[1]
-                    else:
-                        w = arr2[1]
-                    add_row(iteration, "datastore", DBSession, startTime, name=name, hostname=hostName,dswrite=w , dsread =r ,unit = ds_unit)
+                    if cpucollection and statName == "cpu.coreUtilization":
+                        add_row(iteration, "cpu", DBSession, startTime, coreid=instanceStr, coreutil=statValue)
+
+                    if memcollection and statName == "mem.usage" :
+                        add_row(iteration, "mem", DBSession, startTime,  usage = statValue)
+
+
+
+            # There are multiple Parameters for NIC, DS Which  are consolidated above and needs to be written once in DB.
+
+            """
+            logger.debug("The Nic Resut is %s"%(dict(esx_nic_data)))         
+            
+
+            for nic, nicvalues in esx_nic_data.iteritems():
+
+                nic = pnic
+                usage = None
+                usageunit = None
+                total_tx = None
+                total_rx = None
+                for nicitem in nicvalues:
+                    if "unit" in nicitem:
+                        usageunit = nicitem.split(":")[1]
+                    if "usage" in nicitem:
+                        usage = int(nicitem.split(":")[1])
+                    if "Tx" in nicitem:
+                        total_tx = int(nicitem.split(":")[1])
+                    if "Rx" in nicitem:
+                        total_rx = int(nicitem.split(":")[1])
+                    add_row(iteration, "network", DBSession, startTime, name=nic,usage=usage,unit=usageunit,
+                            maxspeed=linkspeed, sent = total_tx , received = total_rx)
+            """
+
+
+            add_row(iteration, "network", DBSession, startTime, name=pnic, usage=esx_nic_data["usage"], unit=esx_nic_data["unit"] , maxspeed=linkspeed,
+                    sent=esx_nic_data["Tx"], received=esx_nic_data["Rx"])
+
+            #logger.debug("Iteration %s The DS Result is %s" % (iteration, dict(esx_data)))
+
+            for ds, values in esx_data.iteritems():
+                name = ds
+                ds_read_latency = None
+                ds_write_latency = None
+                ds_write_total = None
+                ds_read_total = None
+
+                for item in values:
+                    if "read_latency" in item:
+                        ds_read_latency = int(item.split(":")[1])
+                    elif "write_latency" in item:
+                        ds_write_latency = int(item.split(":")[1])
+                    elif "read_total" in item:
+                        ds_read_total = int(item.split(":")[1])
+                    elif "write_total" in item:
+                        ds_write_total = int(item.split(":")[1])
+
+
+                add_row(iteration, "datastore", DBSession, startTime, name=name, hostname=hostName,dswrite=ds_write_latency , dsread =ds_read_latency ,
+                        unit = ds_unit,totalread=ds_read_total, totalwrite = ds_write_total)
+
 
 
             #logger.info("THREAD -%s- The local result after Iteration %s is \n\n%s" % (threadname,iteration, localResult))
 
             #operation[startTime] = localResult
+            logger.info("# " * 10)
+            logger.debug("Stat collection Instance %s Ends " % iteration)
+            logger.info("# " * 10)
             time.sleep(5)
 
         #logger.info("The Operation result after last Iteration %s is \n\n%s"%(iteration,operation))
 
     except Exception, e:
-        print '-' * 60
+        print '!! ' * 60
         traceback.print_exc(file=sys.stdout)
-        print '-' * 60
+        print '!! ' * 60
 
 
 
