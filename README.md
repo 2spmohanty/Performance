@@ -54,6 +54,7 @@ The below image depicts the resource usage aswell as time taken if the Operation
 
 The below image generated from framework shows the duration, bandwidth during a 8 concurrent process.
 
+![8 Concurrent vMotion](https://raw.githubusercontent.com/2spmohanty/Performance/master/images/8_Concur.png)
 
 
 # How to Run.
