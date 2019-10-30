@@ -28,11 +28,15 @@ Memory: 190.46 GB
 ## Observation
 
 vMotion:
-
+```
 Host Concurrency: 8         Time To Complete: 5 Min 02 Sec.
+
 Host Concurrency: 4         Time To Complete: 3 Min 25 Sec.
+
 Host Concurrency: 2         Time To Complete: 3 Min 57 Sec.
+
 Host Concurrency: 1         Time To Complete: 4 Min 12 Sec.
+```
 
 ### If vMotion is Done with 4 concurrency, then it is most effective.
 
